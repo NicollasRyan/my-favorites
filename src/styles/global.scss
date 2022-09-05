@@ -9,6 +9,7 @@
 
     --gray-300: #a8a8b3;
     --gray-400: #888892;
+    --gray-800: #29292e;
     --gray-900: #121214;
 }
 
@@ -27,6 +28,10 @@
 body {
     background: var(--gray-900);
     color: var(--white);
+}
+
+body, textarea, select {
+    font: 400  1rem "Roboto", sans-serif;
 }
 
 a {
