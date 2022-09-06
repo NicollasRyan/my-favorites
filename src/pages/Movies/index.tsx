@@ -19,6 +19,47 @@ export default function Movies() {
                         <img src="/images/godfather2.jpg" alt="GodFatherII" />
                         <p></p>
                     </div>
+
+                    <div>
+                        <img src="/images/endgame.jpg" alt="Avengers endgame" />
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <img src="/images/infinity.jpg" alt="Avengers inifinity war" />
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <img src="/images/scarface.jpg" alt="Scarface" />
+                        <p></p>
+                    </div>
+                    
+                    <div>
+                        <img src="/images/knight.jpg" alt="Batman the dark knight" />
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <img src="/images/thebatman.jpg" alt="The Batman" />
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <img src="/images/bladerunner.jpg" alt="Blade runner" />
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <img src="/images/americanpsycho.jpg" alt="American psycho" />
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <img src="/images/anna.jpg" alt="Anna the danger has a name" />
+                        <p></p>
+                    </div>
+
                 </section>
             </main>
 
