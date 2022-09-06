@@ -9,14 +9,29 @@
 }
 
 .hero {
-    max-width: 600px;
+    max-width: 1000px;
     height: calc(100vh - 5rem);
 
     div:first-child {
         margin-top: 2.5rem;
     }
 
+    div:not(:last-child) {
+        margin-bottom: 1.5rem;
+    }
+
     div {
+        display: flex;
+        flex-direction: block;
+
+        p {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            font-weight: 700;
+            margin-left: 9.5rem;
+            position: relative;
+            top: 12.5rem;
+        }
 
         img {
             width: 100%;
