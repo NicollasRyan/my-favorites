@@ -71,7 +71,7 @@ export default function Series() {
                             O Batman da marvel.<br />
                             Steven Grant e Marc Spector investigam mistérios dos deuses do Egito de dentro do mesmo corpo. <br />
                             <br />
-                            <span>9.6/10</span> 
+                            <span>8/10</span> 
                         </p>
                     </div>
 
@@ -81,7 +81,7 @@ export default function Series() {
                             O melhor ladrão. <br />
                             Inspirado pelas aventuras de Arsène Lupin, o ladrão gentil Assane Diop quer se vingar de uma família rica por uma injustiça cometida contra o pai dele. <br />
                             <br />
-                            <span>Nota: 9.4/10</span>
+                            <span>Nota: 7.5/10</span>
                         </p>
                     </div>
 
@@ -91,7 +91,7 @@ export default function Series() {
                             ANIDA NÂO TERMINEI <br />
                             mas deve ser muito foda. <br />
                             <br />
-                            <span>Nota: 9.7/10</span>
+                            <span>Nota: ?/10</span>
                         </p>
                     </div>
                 </section>
