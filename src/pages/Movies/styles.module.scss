@@ -42,7 +42,8 @@
 
     div {
         display: flex;
-        flex-direction: block;
+        align-items: center;
+        justify-content: space-between;
         border: 1rem solid var(--gray-800);
         border-radius: 5px;
 
@@ -50,9 +51,7 @@
             font-size: 1.5rem;
             line-height: 1.5rem;
             font-weight: 700;
-            margin-left: 9.5rem;
-            position: relative;
-            top: 12.5rem;
+            margin-left: 4rem;
         }
 
         img {
