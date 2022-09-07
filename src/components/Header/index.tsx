@@ -8,7 +8,7 @@ export function Header() {
                 <nav>
                     <a href='/' className={styles.active}>Home</a>
                     <a href='/Movies'>Movies</a>
-                    <a>Series</a>
+                    <a href='/Series'>Series</a>
                 </nav>
             </div>
         </header>
