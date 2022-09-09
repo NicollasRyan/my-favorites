@@ -1,14 +1,27 @@
+import { useRouter } from 'next/router'
 import styles from './styles.module.scss'
+import Link from 'next/link'
 
 export function Header() {
+    const { asPath } = useRouter();
+
+    console.log(asPath)
+    
     return (
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>
                 <h1>My favorites movies and series</h1>
                 <nav>
-                    <a href='/' className={styles.active}>Home</a>
-                    <a href='/Movies'>Movies</a>
-                    <a href='/Series'>Series</a>
+                    <Link href={'/'}>
+                        <a className={asPath === '/' ? styles.active : ''}>Home</a>
+                    </Link>
+                    <Link href={'/Movies'}>
+                        <a className={asPath === '/Movies' ? styles.active : ''}>Movies</a>
+                    </Link>
+                    <Link href={'/Series'}>
+                        <a className={asPath === '/Series' ? styles.active : ''}>Series</a>
+                    </Link>
+                    
                 </nav>
             </div>
         </header>
