@@ -15,7 +15,7 @@ export default function Home() {
           <span>Olá, bem-vindo</span>
           <h2>
             Aqui vamos listar meus filmes e séries favoritos. E também falarei
-            minha nota para cada um
+            minha nota para cada um.
           </h2>
         </section>
 
